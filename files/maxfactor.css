@@ -1,7 +1,10 @@
+body{
+    margin: 0;
+}
 .d-f{
     display: flex;
-    background-color: #2a1912;
-    margin-top: 2%;
+    /*background-color: #2a1912;
+    margin-top: 2%;*/
 }
 .img-fluid {
     width: 100%;
@@ -21,10 +24,12 @@
 .w-90{
     width: 90%;
 }
-.l-mf{
+/*.l-mf{
     background-color: #383738;
+}*/
+.bg-black{
+    background-color: black;
 }
-
 @media only screen and (max-width: 768px) { 
     .d-f{
         display: inline;
@@ -40,9 +45,13 @@
     }
     .video-mx{
         width: 100%;
+        position: relative;
+        top: -6px;
     }
     .s-100-v{
         width: 100%;
+        position: relative;
+        top: -2px;
     }
 }
 
@@ -58,8 +67,12 @@
     }
     .s-100-v{
         width: 50%;
+        position: relative;
+        top: -5px;
     }
     .video-mx{
         width: 50%;
+        position: relative;
+        top: -7px;
     }
 }
